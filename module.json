@@ -1,0 +1,29 @@
+{   
+   "name": "RevenantPF2eModule",   
+   "title": "Pathfinder 2e Revenant",   
+   "description": "Import of Arkons Revenant archetype",   
+   "author": "Azure",
+   "version": "1.0.0",
+   "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "revenantitems",
+      "label": "Revenant Items",
+      "path": "packs/revenant-archetype.db",
+      "entity": "Item",
+      "module": "RevenantPF2eModule",
+      "system": ["pf2e"]
+    },
+    {
+      "name": "revenantjournal",
+      "label": "Revenant Journal",
+      "path": "packs/revenant.db",
+      "entity": "JournalEntry",
+      "module": "RevenantPF2eModule",
+      "system": ["pf2e"]
+    }
+  ]
+ }
